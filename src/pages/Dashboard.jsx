@@ -1,12 +1,19 @@
 import React, { use } from "react";
 import { Outlet } from "react-router-dom";
 import { assets } from "../assets/assets";
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
 
     const navigate = useNavigate();
+=======
+
+const Dashboard = () => {
+
+    const navigate = useNavigate()
+>>>>>>> ccab6974112f88afbc0f7d9f4db5fa22c567b990
 
 
   return (
@@ -31,6 +38,7 @@ const Dashboard = () => {
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
             <div className="flex items-start">
 
                 {/* Left sidebar with option to add job, manage jobs, view applications */}
@@ -61,6 +69,8 @@ const Dashboard = () => {
             </div>
 
 
+=======
+>>>>>>> ccab6974112f88afbc0f7d9f4db5fa22c567b990
     </div>
   );
 };

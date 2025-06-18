@@ -2,8 +2,11 @@ import React from "react";
 import { assets } from "../assets/assets";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import { Link, useNavigate } from "react-router-dom";
+<<<<<<< HEAD
 import { Navigate } from "react-router-dom";
 
+=======
+>>>>>>> ccab6974112f88afbc0f7d9f4db5fa22c567b990
 
 const Navbar = () => {
    const {openSignIn} = useClerk()
