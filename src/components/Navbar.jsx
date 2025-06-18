@@ -9,7 +9,7 @@ const Navbar = () => {
 
    const navigate = useNavigate()
 
-   const {showRecruiterLogin} = React.useContext(AppContext)
+ 
 
     return(
         <div className="shadow py-4">
