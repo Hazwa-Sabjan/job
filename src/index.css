@@ -6,6 +6,7 @@
 
 *{
     font-family: Outfit;
+<<<<<<< HEAD
 }
 
 @layer base {
@@ -16,4 +17,6 @@
 
 ::-webkit-scrollbar{
     display: none;
+=======
+>>>>>>> f7cc994cf5142c0d06d77844ef12f62b6e9ef051
 }
